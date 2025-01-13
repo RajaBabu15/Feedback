@@ -18,8 +18,10 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Base directory for resolving paths
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@model/*": ["src/model/*"] // Adjust according to your directory
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
